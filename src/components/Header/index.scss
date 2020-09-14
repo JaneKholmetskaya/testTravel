@@ -1,0 +1,134 @@
+.header-nav {
+  min-width: 100% !important;
+  padding: 15px 100px !important;
+  background-color: #fff;
+}
+
+.header-contacts {
+  min-width: 100% !important;
+  padding: 12px 100px !important;
+  background-color: #f1f3f4;
+  & span,
+  & a,
+  & span:hover,
+  & a:hover {
+    color: #11344c;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-decoration: none;
+  }
+}
+
+.separator {
+  margin: 0 20px;
+  min-height: 6px;
+  min-width: 6px;
+  background-color: #11344c;
+  border-radius: 50%;
+}
+
+.header-link {
+  color: #11344c;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.logo {
+  width: 150px;
+  height: 27px;
+  background-color: #11344c;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 0 !important;
+  }
+  .header-nav {
+    padding: 15px 35px !important;
+  }
+  .header-contacts {
+    padding: 15px 35px !important;
+  }
+  .logo-col {
+    // margin-bottom: 20px;
+  }
+  .nav-col div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // margin-bottom: 20px;
+    .nav-item a {
+      padding: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-col {
+    margin-bottom: 20px;
+  }
+  .nav-col div {
+    margin-bottom: 10px;
+  }
+}
+
+.logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-contacts-wrapper {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  & > div {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-contacts {
+    padding-bottom: 0 !important;
+  }
+  .header-contacts-wrapper {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    & > div {
+      justify-content: space-between !important;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .separator {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-contacts-wrapper {
+    // margin-bottom: 20px;
+    & > div {
+      flex-direction: column !important;
+      justify-content: space-between !important;
+      margin-bottom: 0px;
+      width: 100%;
+      span,
+      a {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

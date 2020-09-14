@@ -1,0 +1,23 @@
+@import "./normalize.scss";
+@import "~bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat&display=swap");
+
+@font-face {
+  font-family: "R-Flex";
+  src: url(../fonts/RFlex/RFlexBold-VGzLZ.woff) format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "R-flex";
+  src: url(../fonts/RFlex/RFlexRegular-JRJ8j.woff) format("woff");
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+#root {
+  background-color: #f9f9f9;
+}

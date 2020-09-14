@@ -1,0 +1,101 @@
+.panel {
+  &-results {
+    color: #11344c;
+    font-family: "R-Flex", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  &-wrapper {
+    margin-bottom: 20px;
+  }
+  &-cheapest {
+    border-radius: 15px;
+    background-color: #4cb4a01a;
+    div {
+      margin: 6px !important;
+    }
+    span {
+      color: #4cb4a0;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 25px;
+      padding: 0 4px;
+    }
+    span.price {
+      color: #11344c;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 19px;
+      font-weight: normal;
+    }
+  }
+  &-popular {
+    border-radius: 15px;
+    background-color: #4cb4a0;
+    div {
+      margin: 6px !important;
+    }
+    span {
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 25px;
+      padding: 0 4px;
+    }
+    span.price {
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 19px;
+      font-weight: normal;
+    }
+  }
+  &-best {
+    border-radius: 15px;
+    background-color: #4cb4a01a;
+    div {
+      margin: 6px !important;
+    }
+    span {
+      color: #4cb4a0;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 25px;
+      padding: 0 4px;
+    }
+    span.price {
+      color: #11344c;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 19px;
+      font-weight: normal;
+    }
+  }
+  &-price {
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(54, 75, 160, 0.15);
+    div {
+      margin: 6px !important;
+    }
+    span {
+      color: #0856d9;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 25px;
+      padding: 0 4px;
+    }
+  }
+}

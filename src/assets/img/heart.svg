@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>420BE44A-9257-462B-845F-895F4E6B4929</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.75,0.5 C11.3,0.5 9.90833333,1.175 9,2.24166667 C8.09166667,1.175 6.7,0.5 5.25,0.5 C2.68333333,0.5 0.666666667,2.51666667 0.666666667,5.08333333 C0.666666667,8.23333333 3.5,10.8 7.79166667,14.7 L9,15.7916667 L10.2083333,14.6916667 C14.5,10.8 17.3333333,8.23333333 17.3333333,5.08333333 C17.3333333,2.51666667 15.3166667,0.5 12.75,0.5 L12.75,0.5 Z M9.08333333,13.4583333 L9,13.5416667 L8.91666667,13.4583333 C4.95,9.86666667 2.33333333,7.49166667 2.33333333,5.08333333 C2.33333333,3.41666667 3.58333333,2.16666667 5.25,2.16666667 C6.53333333,2.16666667 7.78333333,2.99166667 8.225,4.13333333 L9.78333333,4.13333333 C10.2166667,2.99166667 11.4666667,2.16666667 12.75,2.16666667 C14.4166667,2.16666667 15.6666667,3.41666667 15.6666667,5.08333333 C15.6666667,7.49166667 13.05,9.86666667 9.08333333,13.4583333 L9.08333333,13.4583333 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="41.6666667" height="41.6666667"></rect>
+    </defs>
+    <g id="Hotels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hotels---Search-Results" transform="translate(-788.000000, -509.000000)">
+            <g id="Group-19" transform="translate(0.000000, 482.000000)">
+                <g id="Group-30" transform="translate(490.000000, 20.000000)">
+                    <g id="Group-26" transform="translate(287.000000, 0.000000)">
+                        <g id="Group-28">
+                            <g id="ico-/-24-/-ui-/-edit-copy-2" transform="translate(11.000000, 7.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill-opacity="0.7" fill="#000000" xlink:href="#path-1"></use>
+                                <g id="🎨-Color" mask="url(#mask-2)">
+                                    <g transform="translate(-11.833333, -12.833333)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <use id="Black" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

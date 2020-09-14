@@ -1,0 +1,12 @@
+.page-layout {
+  max-width: 1440px !important;
+  // padding: 0 100px !important;
+  // margin: 0 40px !important;
+  // background-color: green;
+}
+
+@media screen and (max-width: 1000px) {
+  .page-layout {
+    padding: 0 !important;
+  }
+}
